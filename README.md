@@ -9,5 +9,5 @@ docker run kennycheng/android-studio [DISPLAY] [user]
 ## Example
 
 ```bash
-docker run -v $HOME:$HOME --net=host kennycheng/android-studio :0 peter
+docker run -v $HOME:$HOME --net=host --privileged kennycheng/android-studio :0 peter
 ```
