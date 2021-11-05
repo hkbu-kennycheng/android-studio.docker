@@ -3,6 +3,7 @@
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 executable=/opt/android-studio/bin/studio.sh
+chmod 0777 /dev/kvm
 
 if [ $# -lt 1 ] || [ $# -gt 2 ]; then
 	echo "Usage: launch.sh [DISPLAY value] <USER>"
